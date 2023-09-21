@@ -1,0 +1,19 @@
+body {
+    background-color: #242424;
+}
+
+.title {
+    font-size: 100px;
+}
+
+.lrg-txt {
+    font-size: 25px;
+}
+
+.no-decor {
+    text-decoration: none;
+}
+
+.purp-txt {
+    color: #CF9FFF;
+}

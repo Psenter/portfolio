@@ -1,0 +1,23 @@
+div {
+    background-color: #242424;
+}
+
+.purp-txt {
+    color: #CF9FFF;
+}
+
+.home-mass-txt {
+    font-size: 150px;
+}
+
+.home-lrg-txt {
+    font-size: 60px;
+}
+
+.nav-txt {
+    font-size: 30px;
+}
+
+.no-decor {
+    text-decoration: none;
+}
