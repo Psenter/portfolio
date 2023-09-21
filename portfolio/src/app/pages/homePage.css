@@ -1,0 +1,27 @@
+.norm-bg {
+    background-color: #242424;
+}
+
+body {
+    background-color: #242424;
+}
+
+.purp-txt {
+    color: #CF9FFF;
+}
+
+.home-mass-txt {
+    font-size: 150px;
+}
+
+.home-lrg-txt {
+    font-size: 50px;
+}
+
+.no-decor {
+    text-decoration: none;
+}
+
+.nav-txt {
+    font-size: 25px;
+}
