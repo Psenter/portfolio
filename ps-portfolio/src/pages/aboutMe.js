@@ -7,17 +7,17 @@ import Image from "next/image";
 function AboutMe() {
   return (
     <div>
-      <div className="text-light text-center mt-5 title">About me</div>
+      <div className="text-center mt-5 title purp-txt">About me</div>
       <div className="container mt-5">
         <div className="row">
-            <div className="col-12 text-center">
-              <Image
-                src={`/small_me.jpg`}
-                alt="A picture of me"
-                width={300}
-                height={300}
-              />
-            </div>
+          <div className="col-12 text-center">
+            <Image
+              src={`/small_me.jpg`}
+              alt="A picture of me"
+              width={300}
+              height={300}
+            />
+          </div>
           <div className="text-light col text-center lrg-txt mt-4">
             Hi there! My name is Parker Senter. I'm a passionate and creative
             full-stack web developer based in Lexington, Kentucky. I graduated
@@ -32,7 +32,7 @@ function AboutMe() {
             proficiency in HTML, CSS, JavaScript, React, Python, and more. I
             love tackling complex problems and continuously learning new
             technologies to stay up-to-date with industry trends. Feel free to{" "}
-            <Link className="no-decor purp-txt" href="/">
+            <Link className="no-decor purp-txt" href="/contactPage">
               reach out to me.
             </Link>{" "}
             I'd love to hear from you!
