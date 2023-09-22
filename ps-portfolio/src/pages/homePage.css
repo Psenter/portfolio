@@ -1,3 +1,4 @@
+/* Default styles for larger screens */
 div {
     background-color: #242424;
 }
@@ -7,7 +8,7 @@ div {
 }
 
 .home-mass-txt {
-    font-size: 150px;
+    font-size: 110px;
 }
 
 .home-lrg-txt {
@@ -20,4 +21,19 @@ div {
 
 .no-decor {
     text-decoration: none;
+}
+
+/* Media query for screens smaller than 768px (typical phone width) */
+@media (max-width: 768px) {
+    .home-mass-txt {
+        font-size: 60px; /* Adjust the font size for smaller screens */
+    }
+    
+    .home-lrg-txt {
+        font-size: 40px; /* Adjust the font size for smaller screens */
+    }
+    
+    .nav-txt {
+        font-size: 20px; /* Adjust the font size for smaller screens */
+    }
 }
