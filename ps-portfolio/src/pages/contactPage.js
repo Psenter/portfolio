@@ -5,18 +5,19 @@ import Image from "next/image";
 import "./aboutMe.css";
 
 function ContactPage() {
-    const [isCopied, setIsCopied] = useState(false);
+  const [isCopied, setIsCopied] = useState(false);
 
-    const copyToClipboard = (textToCopy) => {
-        navigator.clipboard.writeText(textToCopy)
-          .then(() => {
-            setIsCopied(true);
-          })
-          .catch((error) => {
-            console.error('Error copying text to clipboard:', error);
-          });
-      };
-    
+  const copyToClipboard = (textToCopy) => {
+    navigator.clipboard
+      .writeText(textToCopy)
+      .then(() => {
+        setIsCopied(true);
+      })
+      .catch((error) => {
+        console.error("Error copying text to clipboard:", error);
+      });
+  };
+
   return (
     <div>
       <div className="container vh-100 d-flex flex-column justify-content-center align-items-center">
@@ -24,16 +25,15 @@ function ContactPage() {
         <div className="container mt-5">
           <div className="row">
             <div className="col-6 text-center">
-
-                {/* LinkedIn */}
+              {/* LinkedIn */}
               <div className="d-flex flex-column align-items-center">
                 <Link href={`https://www.linkedin.com/in/parker-g-senter-dev/`}>
-                <Image
-                  src={`/LinkedIn_icon_circle.svg.png`}
-                  alt="Linkedin logo"
-                  width={150}
-                  height={150}
-                ></Image>
+                  <Image
+                    src={`/LinkedIn_icon_circle.svg.png`}
+                    alt="Linkedin logo"
+                    width={150}
+                    height={150}
+                  ></Image>
                 </Link>
                 <Link
                   href={`https://www.linkedin.com/in/parker-g-senter-dev/`}
@@ -48,13 +48,13 @@ function ContactPage() {
             <div className="col-6 text-center">
               <div className="d-flex flex-column align-items-center">
                 <Link href={`https://github.com/Psenter`}>
-                <Image
-                  src={`/github-icon-2048x1988-jzvzcf2t.png`}
-                  alt="Github logo"
-                  width={150}
-                  height={150}
-                  href={`https://www.linkedin.com/in/parker-g-senter-dev/`}
-                ></Image>
+                  <Image
+                    src={`/github-icon-2048x1988-jzvzcf2t.png`}
+                    alt="Github logo"
+                    width={150}
+                    height={150}
+                    href={`https://www.linkedin.com/in/parker-g-senter-dev/`}
+                  ></Image>
                 </Link>
                 <Link
                   href={`https://github.com/Psenter`}
@@ -74,10 +74,11 @@ function ContactPage() {
                   width={150}
                   height={150}
                   onClick={() => copyToClipboard("859-537-9302")}
-                  style={{ cursor: 'pointer' }}
+                  style={{ cursor: "pointer" }}
                 ></Image>
                 <div className="lrg-txt no-decor lrg-txt text-light mt-2">
-                    Click the image or copy my phone number here: <br/> 859-537-9302
+                  Click the image or copy my phone number here: <br />{" "}
+                  859-537-9302
                 </div>
               </div>
             </div>
@@ -91,14 +92,14 @@ function ContactPage() {
                   width={150}
                   height={150}
                   onClick={() => copyToClipboard("parker.senter@gmail.com")}
-                  style={{ cursor: 'pointer' }}
+                  style={{ cursor: "pointer" }}
                 ></Image>
                 <div className="lrg-txt no-decor mt-2 text-light">
-                    Click the image or copy my email here: <br/> parker.senter@gmail.com
+                  Click the image or copy my email here: <br />{" "}
+                  parker.senter@gmail.com
                 </div>
               </div>
             </div>
-
           </div>
         </div>
         <Link href="/" className="no-decor">
