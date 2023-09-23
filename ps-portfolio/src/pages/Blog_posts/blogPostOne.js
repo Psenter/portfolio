@@ -17,7 +17,6 @@ export default function BlogSnippets() {
       <div className="title purp-txt text-center">
         My first week of the bootcamp.
       </div>
-
       <div className="row mt-4 pt-4 justify-content-center border-top">
         <div className="col-12 purp-txt text-center mb-3 lrg-txt">
           Question 1: Was your first week what you expected? Why? Why not?
@@ -82,11 +81,13 @@ export default function BlogSnippets() {
       </div>
       <div className="row mt-4 pt-4 justify-content-center border-top">
         <div className="col-12 purp-txt text-center mb-3 lrg-txt">
-          Question 4: What is something you wish you could do but currently do not have the coding skills for?
+          Question 4: What is something you wish you could do but currently do
+          not have the coding skills for?
         </div>
         <div className="col-12 text-light text-center">
-            I personally wish I could make a clothing website. I have always really liked fashion and I have always wanted to possibly make my own little clothing store that me and some friends
-            would be able to run. 
+          I personally wish I could make a clothing website. I have always
+          really liked fashion and I have always wanted to possibly make my own
+          little clothing store that me and some friends would be able to run.
         </div>
       </div>
       <div className="row mt-4 pt-4 justify-content-center border-top">
@@ -94,8 +95,10 @@ export default function BlogSnippets() {
           Question 5: What are you struggling with?
         </div>
         <div className="col-12 text-light text-center">
-          What I am struggling with at the moment is just attempting to fully wrap my head around JavaScript. Like I stated before it looks very daunting right now, but I am sure with enough
-          reps and practice at it I would be able to tackle it in the long run.
+          What I am struggling with at the moment is just attempting to fully
+          wrap my head around JavaScript. Like I stated before it looks very
+          daunting right now, but I am sure with enough reps and practice at it
+          I would be able to tackle it in the long run.
         </div>
       </div>
       <div className="row mt-4 pt-4 justify-content-center border-top">
@@ -103,10 +106,14 @@ export default function BlogSnippets() {
           Question 6: How do you solve a problem?
         </div>
         <div className="col-12 text-light text-center">
-          The way that I solve a problem is by first figuring out the issue I am having. Once I figure out what issue is occuring, I then try to isolate what would be causing the issue
-          or ask someone else for help. If no one is able to help me, I try to isolate it by either messing with things until it reveals itself or looking up the issue that I am having to see
-          if someone online can help me. Once I isolate what is causing my issue, I mess around with it until I am able to figure out a way that fixes my issue or look into more ways to fix it
-          online.
+          The way that I solve a problem is by first figuring out the issue I am
+          having. Once I figure out what issue is occuring, I then try to
+          isolate what would be causing the issue or ask someone else for help.
+          If no one is able to help me, I try to isolate it by either messing
+          with things until it reveals itself or looking up the issue that I am
+          having to see if someone online can help me. Once I isolate what is
+          causing my issue, I mess around with it until I am able to figure out
+          a way that fixes my issue or look into more ways to fix it online.
         </div>
       </div>
       <div className="row mt-4 pt-4 pb-4 justify-content-center border-top border-bottom">
@@ -115,11 +122,17 @@ export default function BlogSnippets() {
         </div>
         <div className="col-12 text-light text-center">
           The methods I use to get myself unstuck are:
-          <ul style={{ listStylePosition: 'inside' }}>
+          <ul style={{ listStylePosition: "inside" }}>
             <li>Asking someone for help</li>
             <li>Looking online for things that could help/the answer</li>
-            <li>Reading things that could help me better understanding of whats going on</li>
-            <li>Messing with/breaking things until something works and looking into why</li>
+            <li>
+              Reading things that could help me better understanding of whats
+              going on
+            </li>
+            <li>
+              Messing with/breaking things until something works and looking
+              into why
+            </li>
           </ul>
         </div>
       </div>

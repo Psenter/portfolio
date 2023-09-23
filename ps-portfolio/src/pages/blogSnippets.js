@@ -28,7 +28,7 @@ export default function BlogSnippets() {
           <div className="lrg-txt text-light text-center">
             <div>Blog Post 2:</div>
             <div>Getting some of the basics down.</div>
-            <Link href={`/`} className="no-decor purp-txt med-txt">
+            <Link href={`/Blog_posts/blogPostTwo`} className="no-decor purp-txt med-txt">
               Read
             </Link>
           </div>
