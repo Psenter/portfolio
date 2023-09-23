@@ -103,7 +103,7 @@ function ContactPage() {
           </div>
         </div>
         <Link href="/" className="no-decor">
-          <div className="text-center purp-txt mt-5 mb-3">Back</div>
+          <div className="text-center purp-txt mt-5 mb-3 back-btn">Back</div>
         </Link>
       </div>
     </div>

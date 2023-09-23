@@ -14,8 +14,8 @@ export default function HomePage() {
               <Link href="/aboutMe" className="col-12 col-md-3 no-decor purp-txt text-center">
                 <div className="nav-item nav-link py-2">About me</div>
               </Link>
-              <Link href="/blog" className="col-12 col-md-3 no-decor purp-txt text-center">
-                <div className="nav-item nav-link py-2">Blog Posts</div>
+              <Link href="/blogSnippets" className="col-12 col-md-3 no-decor purp-txt text-center">
+                <div className="nav-item nav-link py-2">Bootcamp Blog Posts</div>
               </Link>
               <Link href="/projects" className="col-12 col-md-3 no-decor purp-txt text-center">
                 <div className="nav-item nav-link py-2">Projects</div>
