@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Image from "next/image";
 import "./blogStyles.css";
 
-export default function BlogSnippets() {
+export default function BlogOne() {
   const codeBlock = `
     let button = document.createElement('button');
     button.addEventListener('click', () => {
