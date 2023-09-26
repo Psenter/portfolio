@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import "bootstrap/dist/css/bootstrap.min.css";
+import "./bootstrap/dist/css/bootstrap.min.css";
 import "./aboutMe.css";
 import Image from "next/image";
 

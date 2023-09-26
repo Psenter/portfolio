@@ -1,11 +1,11 @@
 import React from "react";
 import Link from "next/link";
-import "bootstrap/dist/css/bootstrap.min.css";
+import "./bootstrap/dist/css/bootstrap.min.css";
 import Image from "next/image";
 import "./aboutMe.css";
 
-
-{/* 
+{
+  /* 
 import React from "react";
 import Link from "next/link";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -29,7 +29,8 @@ export default function (){
     </div>
   )
 }
-*/}
+*/
+}
 
 export default function BlogSnippets() {
   return (
@@ -47,7 +48,10 @@ export default function BlogSnippets() {
           <div className="lrg-txt text-light text-center">
             <div>Blog Post 1:</div>
             <div>My first week of the bootcamp.</div>
-            <Link href={`/Blog_posts/blogPostOne`} className="no-decor purp-txt med-txt">
+            <Link
+              href={`/Blog_posts/blogPostOne`}
+              className="no-decor purp-txt med-txt"
+            >
               Read
             </Link>
           </div>
@@ -58,7 +62,10 @@ export default function BlogSnippets() {
           <div className="lrg-txt text-light text-center">
             <div>Blog Post 2:</div>
             <div>Getting some of the basics down.</div>
-            <Link href={`/Blog_posts/blogPostTwo`} className="no-decor purp-txt med-txt">
+            <Link
+              href={`/Blog_posts/blogPostTwo`}
+              className="no-decor purp-txt med-txt"
+            >
               Read
             </Link>
           </div>
@@ -69,7 +76,10 @@ export default function BlogSnippets() {
           <div className="lrg-txt text-light text-center">
             <div>Blog Post 3:</div>
             <div>Struggling with pesudocode.</div>
-            <Link href={`/Blog_posts/blogPostThree`} className="no-decor purp-txt med-txt">
+            <Link
+              href={`/Blog_posts/blogPostThree`}
+              className="no-decor purp-txt med-txt"
+            >
               Read
             </Link>
           </div>
@@ -80,7 +90,10 @@ export default function BlogSnippets() {
           <div className="lrg-txt text-light text-center">
             <div>Blog Post 4:</div>
             <div>Grasping good practices.</div>
-            <Link href={`/Blog_posts/blogPostFour`} className="no-decor purp-txt med-txt">
+            <Link
+              href={`/Blog_posts/blogPostFour`}
+              className="no-decor purp-txt med-txt"
+            >
               Read
             </Link>
           </div>
@@ -93,7 +106,10 @@ export default function BlogSnippets() {
           <div className="lrg-txt text-light text-center">
             <div>Blog Post 5:</div>
             <div>Reacting to my first time seeing React.</div>
-            <Link href={`/Blog_posts/blogPostFive`} className="no-decor purp-txt med-txt">
+            <Link
+              href={`/Blog_posts/blogPostFive`}
+              className="no-decor purp-txt med-txt"
+            >
               Read
             </Link>
           </div>
@@ -104,7 +120,10 @@ export default function BlogSnippets() {
           <div className="lrg-txt text-light text-center">
             <div>Blog Post 6:</div>
             <div>A closer look into CLI.</div>
-            <Link href={`/Blog_posts/blogPostSix`} className="no-decor purp-txt med-txt">
+            <Link
+              href={`/Blog_posts/blogPostSix`}
+              className="no-decor purp-txt med-txt"
+            >
               Read
             </Link>
           </div>
@@ -115,7 +134,10 @@ export default function BlogSnippets() {
           <div className="lrg-txt text-light text-center">
             <div>Blog Post 7:</div>
             <div>The halfway point!</div>
-            <Link href={`/Blog_posts/blogPostSeven`} className="no-decor purp-txt med-txt">
+            <Link
+              href={`/Blog_posts/blogPostSeven`}
+              className="no-decor purp-txt med-txt"
+            >
               Read
             </Link>
           </div>
@@ -126,7 +148,10 @@ export default function BlogSnippets() {
           <div className="lrg-txt text-light text-center">
             <div>Blog Post 8:</div>
             <div>Breaking into the backend.</div>
-            <Link href={`/Blog_posts/blogPostEight`} className="no-decor purp-txt med-txt">
+            <Link
+              href={`/Blog_posts/blogPostEight`}
+              className="no-decor purp-txt med-txt"
+            >
               Read
             </Link>
           </div>
@@ -139,7 +164,10 @@ export default function BlogSnippets() {
           <div className="lrg-txt text-light text-center">
             <div>Blog Post 9:</div>
             <div>Whats sticking in the tech stack.</div>
-            <Link href={`/Blog_posts/blogPostNine`} className="no-decor purp-txt med-txt">
+            <Link
+              href={`/Blog_posts/blogPostNine`}
+              className="no-decor purp-txt med-txt"
+            >
               Read
             </Link>
           </div>
@@ -150,7 +178,10 @@ export default function BlogSnippets() {
           <div className="lrg-txt text-light text-center">
             <div>Blog Post 10:</div>
             <div>Looking back at the past.</div>
-            <Link href={`/Blog_posts/blogPostTen`} className="no-decor purp-txt med-txt">
+            <Link
+              href={`/Blog_posts/blogPostTen`}
+              className="no-decor purp-txt med-txt"
+            >
               Read
             </Link>
           </div>
@@ -161,7 +192,10 @@ export default function BlogSnippets() {
           <div className="lrg-txt text-light text-center">
             <div>Blog Post 11:</div>
             <div>Progress reports.</div>
-            <Link href={`/Blog_posts/blogPostEleven`} className="no-decor purp-txt med-txt">
+            <Link
+              href={`/Blog_posts/blogPostEleven`}
+              className="no-decor purp-txt med-txt"
+            >
               Read
             </Link>
           </div>
@@ -172,7 +206,10 @@ export default function BlogSnippets() {
           <div className="lrg-txt text-light text-center">
             <div>Blog Post 12:</div>
             <div>Starting the final project!</div>
-            <Link href={`/Blog_posts/blogPostTwelve`} className="no-decor purp-txt med-txt">
+            <Link
+              href={`/Blog_posts/blogPostTwelve`}
+              className="no-decor purp-txt med-txt"
+            >
               Read
             </Link>
           </div>
@@ -185,7 +222,10 @@ export default function BlogSnippets() {
           <div className="lrg-txt text-light text-center">
             <div>Blog Post 13:</div>
             <div>A final retrospective of it all.</div>
-            <Link href={`/Blog_posts/blogPostThirteen`} className="no-decor purp-txt med-txt">
+            <Link
+              href={`/Blog_posts/blogPostThirteen`}
+              className="no-decor purp-txt med-txt"
+            >
               Read
             </Link>
           </div>
