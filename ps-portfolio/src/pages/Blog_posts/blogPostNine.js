@@ -8,6 +8,7 @@ export default function BlogNine(){
   return(
     <div className="container">
       <div className="title purp-txt text-center">
+        Whats sticking in the tech stack.
       </div>
       <div className="row mt-4 pt-4 justify-content-center border-top">
         <div className="col-12 purp-txt text-center mb-3 lrg-txt">
