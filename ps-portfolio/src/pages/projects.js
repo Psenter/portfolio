@@ -32,10 +32,24 @@ export default function () {
         <div className="col">
           <div className="lrg-txt text-light text-center">Weather App</div>
           <div className="text-light text-center">
-            This project is a weather application that allows the user to input a zipcode and recieve information about the weather in that area."
+            This project is a weather application that allows the user to input a zipcode and recieve information about the weather in that area.
           </div>
           <Link
             href={`https://psenter.github.io/weather-app/`}
+            className=" no-decor purp-txt med-txt"
+          >
+            <div className="text-center pt-3">Click here to view the page.</div>
+          </Link>
+        </div>
+      </div>
+      <div className="row mt-4 pt-4 justify-content-center border-top">
+        <div className="col">
+          <div className="lrg-txt text-light text-center">To-Do List</div>
+          <div className="text-light text-center">
+            This project is a To-Do list that allows you to add items to your list and keep track of what you have done and what else you need to get done throughout the day.
+          </div>
+          <Link
+            href={`https://psenter.github.io/To-Do-List/`}
             className=" no-decor purp-txt med-txt"
           >
             <div className="text-center pt-3">Click here to view the page.</div>
