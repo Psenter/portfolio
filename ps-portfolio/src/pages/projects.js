@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Image from "next/image";
 import "./aboutMe.css";
 
 export default function () {
@@ -56,12 +55,24 @@ export default function () {
           </Link>
         </div>
       </div>
+      <div className="row mt-4 pt-4 justify-content-center border-top">
+        <div className="col">
+          <div className="lrg-txt text-light text-center">Flash Cards</div>
+          <div className="text-light text-center">
+            This is a small page that is a word bank that holds React and JavaScript words to know. There is also a quiz page that will show a defintion and you can attempt to
+            guess the word it is talking about.
+          </div>
+          <Link
+            href={`https://flash-cards-xi.vercel.app`}
+            className=" no-decor purp-txt med-txt"
+          >
+            <div className="text-center pt-3">Click here to view the page.</div>
+          </Link>
+        </div>
+      </div>
       <Link href={`/`} className="purp-txt back-btn no-decor">
         <div className="text-center mt-5 mb-5 border-top pt-4">Back</div>
       </Link>
     </div>
   );
 }
-
-
-//https://psenter.github.io/weather-app/
